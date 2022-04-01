@@ -12,8 +12,6 @@ const editarPost = id => {
 
     botaoEditar.onclick = () => {
 
-        $('#exampleModal1').modal('hide');
-
         if (!titulo.value && !descricao.value) {
             alert('Titulo e Descrição Inválidos');
             return;
@@ -26,6 +24,8 @@ const editarPost = id => {
             alert('Descrição Inválida');
             return;
         }
+
+        $('#exampleModal1').modal('hide');
 
         const obj = {
             id: id,

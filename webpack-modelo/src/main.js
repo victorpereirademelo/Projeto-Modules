@@ -2,7 +2,7 @@ import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 import './assets/css/style.css';
 
-const { dadosInicial, dadosMutavel } = require('./modules/data');
+const { dadosInicial, dadosMutavel } = require('./modules/dados');
 const { renderizacaoDeTabela } = require('./modules/renderizar');
 const { filtrar } = require('./modules/filtrar')
 const { excluirPost } = require('./modules/excluir');

@@ -19,6 +19,6 @@ function filtrar() {
     });
 
     renderizacaoDeTabela(dadosFiltrados);
-}
+};
 
 module.exports.filtrar = filtrar;
